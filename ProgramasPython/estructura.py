@@ -21,12 +21,15 @@ comparacion = (variable_entera > variable_decimal)
 nombre_usuario = input("Por favor, ingresa tu nombre: ")
 print("Hola, " + nombre_usuario + "! Este es tu primer programa en Python.") 
 
+number=7
+edad=64
+
 # Estructuras de Control de decisiones
 # Se utiliza una estructura if-elif-else para tomar decisiones basadas en condiciones
-if variable_booleana:
+if number>edad:
     print("La variable booleana es verdadera.")
-elif resultado_suma < 10:
-    print("La suma es menor que 10.")
+elif edad > 50:
+    print("La suma es mayor que 50.")
 else:
     print("Ninguna de las condiciones anteriores se cumple.")
 
