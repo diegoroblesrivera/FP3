@@ -35,7 +35,7 @@ else:
 
 # Colecciones de Datos
 # Se crean listas, tuplas, diccionarios y conjuntos para almacenar datos
-lista_numeros = [1, 2, 3, 4, 5]
+lista_numeros = [1, 88, 3, 4, 5]
 tupla_colores = ("rojo", "verde", "azul")
 diccionario_edades = {"Juan": 25, "María": 30, "Carlos": 22}
 conjunto_elementos = {1, 2, 3, 4, 5}
