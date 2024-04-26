@@ -6,7 +6,6 @@ def primerwhile():
     text=input()
  print("Ese es el saludo correcto")
 
-# primerwhile()
 
 def verifpassw():
  passw=""
@@ -18,4 +17,13 @@ def verifpassw():
  
  print("Bienvenido Usuario Admin")
 
-verifpassw()
+print("---Bienvenido al programa 1.0---")
+print("1.- Verifica Password")
+print("2.- Programa de")
+op=int(input("Seleccione un a opcion"))
+match op:
+  case 1:
+    verifpassw()
+  case 2:
+    primerwhile()
+

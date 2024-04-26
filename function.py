@@ -25,12 +25,51 @@ def suma(num1, num2):
 def resta(num1, num2):
     resul=num1-num2
     return resul
+def multi(num1, num2):
+    resul=num1*num2
+    return resul
+def divi(num1, num2):
+    resul=num1/num2
+    return resul 
+while True:
+    print("Seleccione una opcion")
+    print("1.- -Suma")
+    print("2.- -Resta")
+    print("3.- -Multiplicacion")
+    print("4.- -Division")
+    op=int(input())
 
-print("Ingrese dos numero")
-n2=int(input())
-n8=int(input())
-print(suma(n2,9))
-print(resta(n2,n8))
+    match op:
+        case 1:
+            print("Ingrese 2 numeros")
+            num1=int(input())
+            num2=int(input())
+            print("Su resultado es ",suma(num1,num2))
+        case 2:
+            print("Ingrese 2 numeros")
+            num1=int(input())
+            num2=int(input())
+            print("Su resultado es ",resta(num1,num2))
+        case 3:
+            print("Ingrese 2 numeros")
+            num1=int(input())
+            num2=int(input())
+            print("Su resultado es ",multi(num1,num2))
+        case 4:
+            print("Ingrese 2 numeros")
+            num1=int(input())
+            num2=int(input())
+            print("Su resultado es ",divi(num1,num2))
+
+
+
+# num1=int(input())
+# num2=int(input())
+# while num2==0:
+#     print("Elija un numero distinto a cero")
+#     num2=int(input())
+    
+# print(divi(num1,num2))
 
 
 

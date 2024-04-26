@@ -63,18 +63,18 @@
 # else:
 #         print("este ticket caducó")
 
-edad=9
-grupo="A"
+# edad=9
+# grupo="A"
 
-if edad>=18 and  grupo=="A":
-        print("Used es mayor y pertenece al grupo A")
-elif edad>=18 and  grupo=="B":
-        print("Used es mayor y pertenece al grupo B")
-else:
- print("Used no es mayor y no pertenece a ningun grupo")
+# if edad>=18 and  grupo=="A":
+#         print("Used es mayor y pertenece al grupo A")
+# elif edad>=18 and  grupo=="B":
+#         print("Used es mayor y pertenece al grupo B")
+# else:
+#  print("Used no es mayor y no pertenece a ningun grupo")
 
 
-color="Azul"
+# color="Azul"
 
-if color=="Azul" or  color=="Negro" or color=="Rojo":
-        print("Used tiene por lo menos un color")
+# if color=="Azul" or  color=="Negro" or color=="Rojo":
+#         print("Used tiene por lo menos un color")
