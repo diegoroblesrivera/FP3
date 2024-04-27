@@ -14,16 +14,42 @@ def verifpassw():
  while passw !="1234":
     print("Su password es incorrecta")
     passw=input()
- 
- print("Bienvenido Usuario Admin")
+print("Bienvenido Usuario Admin")
 
-print("---Bienvenido al programa 1.0---")
-print("1.- Verifica Password")
-print("2.- Programa de")
-op=int(input("Seleccione un a opcion"))
-match op:
-  case 1:
-    verifpassw()
-  case 2:
-    primerwhile()
+def dormir():
+  ruido=False
+  while ruido!=True:
+    print("zzzzZZZZZZ")
+    print("*Susurra*  Hay ruido? si/no")
+    verifica=input()
+    if verifica=="si":
+      print("Ha despertado")
+      ruido=True
+    else:
+      print("siga durmiendo")
+
+  
+
+mantener=True
+while mantener:
+ 
+ 
+
+  print("---Bienvenido al programa 1.0---")
+  print("1.- Verifica Password")
+  print("2.- Programa de saludo")
+  print("3.- Programa dormir")
+  print("4.- Salir")
+  op=int(input("Seleccione un a opcion"))
+  match op:
+    case 1:
+      verifpassw()
+    case 2:
+      primerwhile()
+    case 3:
+      dormir()
+    case 4:
+      mantener= False
+    case _:
+      print("No sea gil , elija una opcion viabble")
 

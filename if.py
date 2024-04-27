@@ -26,11 +26,30 @@
 #     if sam>ada:
 #         print("Sam es el mayor de todos ")
 #     else:
-#         print("Sam solo es mayor que alex" )  
+#         print("Sam solo es mayor que alex" ) 
 
-# num1=9
+
+# leche_sin_lactosa=True
+# caja_habilitada=True
+# lider="abierto"
+# sistema_de_pago=False
+
+
+
+# if lider=="abierto":
+#     print("Puede entar al super")
+#     if leche_sin_lactosa:
+#         print("Hay leche sin lactosa")
+#         if caja_habilitada:
+#             print("Hay cajas habilitadas")
+#             if sistema_de_pago:
+#                 print("Puede pagar con debito")
+#             else:
+#                 print("Puede pagar con efectivo")
+
+# num1=19
 # num2=18
-# num3=11
+# num3=31
 
 # if num1>num2 and num1>num3:
 #         print("el numero mayor es", num1)
