@@ -1,26 +1,36 @@
+# num=7
+
+# if num>0 and num%2==0:
+#     print("El numero es positivo y par")
+# else:
+#     print("El numero es positivo y no es par")
+
+
+
+
 # number=7
 # edad=45
 
 # if number>edad:
-#     print("La variable booleana es verdadera.")
+#     print("La variable  es verdadera.")
 # elif edad > 50:
 #     print("La suma es mayor que 50.")
 # else:
 #     print("Ninguna de las condiciones anteriores se cumple.")
 
 # alex=15
-# sam=24
+# sam=77
 # ada=60
 
 # if alex<sam:
 #     if sam>ada:
 #         print("Sam es el mayor de todos ")
 #     else:
-#         print("SAM solo es mayor que alex" )  
+#         print("Sam solo es mayor que alex" )  
 
 # num1=9
-# num2=8
-# num3=3
+# num2=18
+# num3=11
 
 # if num1>num2 and num1>num3:
 #         print("el numero mayor es", num1)
@@ -34,7 +44,7 @@
 # pizza=2
 # humitas=3
 # cazuela=4
-# print("Ejila una opcion de comida")
+# print("Elija una opcion de comida")
 # op=int(input())
 
 # if op==(1):
@@ -63,7 +73,7 @@
 # else:
 #         print("este ticket caducó")
 
-# edad=9
+# edad=19
 # grupo="A"
 
 # if edad>=18 and  grupo=="A":
@@ -74,7 +84,7 @@
 #  print("Used no es mayor y no pertenece a ningun grupo")
 
 
-# color="Azul"
+# color="Negro"
 
 # if color=="Azul" or  color=="Negro" or color=="Rojo":
-#         print("Used tiene por lo menos un color")
+#         print("Usted tiene por lo menos un color")

@@ -5,7 +5,7 @@
      
 # print(num/3)
 
-lista_numeros = [1, 3, 4, 5,6,7,8]
+lista_numeros = [55, 79, 4, 5,6,7,8]
 
 for valor in lista_numeros:
     if valor>3:
