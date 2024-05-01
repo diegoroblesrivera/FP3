@@ -1,3 +1,10 @@
+# num=-7
+
+# if num>0 :
+#     print("El numero es positivo")
+# else:
+#     print("El numero no es positivo")
+
 # num=7
 
 # if num>0 and num%2==0:
@@ -29,23 +36,23 @@
 #         print("Sam solo es mayor que alex" ) 
 
 
-# leche_sin_lactosa=True
-# caja_habilitada=True
-# lider="abierto"
-# sistema_de_pago=False
+leche_sin_lactosa=True
+caja_habilitada=True
+lider_abierto=True
+sistema_de_pago=False
 
 
 
-# if lider=="abierto":
-#     print("Puede entar al super")
-#     if leche_sin_lactosa:
-#         print("Hay leche sin lactosa")
-#         if caja_habilitada:
-#             print("Hay cajas habilitadas")
-#             if sistema_de_pago:
-#                 print("Puede pagar con debito")
-#             else:
-#                 print("Puede pagar con efectivo")
+if lider_abierto:
+    print("Puede entar al super")
+    if leche_sin_lactosa:
+        print("Hay leche sin lactosa")
+        if caja_habilitada:
+            print("Hay cajas habilitadas")
+            if sistema_de_pago:
+                print("Puede pagar con debito")
+            else:
+                print("Puede pagar con efectivo")
 
 # num1=19
 # num2=18
@@ -107,3 +114,30 @@
 
 # if color=="Azul" or  color=="Negro" or color=="Rojo":
 #         print("Usted tiene por lo menos un color")
+
+
+# Validar si un ticker está dentro del rango valido
+# entre 100 y 750
+
+# Validar si va a cancha o a galeria
+
+# print("Ingrese su numero de ticket:")
+# num_ticket=int(input())
+
+# if num_ticket > 100 and num_ticket < 750:
+ 
+#  print("Su ticket es valido")
+#  print("Donde va?")
+#  print("Galeria (G) o Cancha (C)?")
+#  donde=input()
+#  if donde.upper() == "G":
+#         print("Usted va a la galeria, Disfrute!")
+#  elif donde.upper() == "C":
+#             print("Usted va a la cancha")
+#  else:
+#                 print("No va a ningun lado")
+# else:
+#   print("Ticket maloo")
+
+
+
