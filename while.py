@@ -28,7 +28,8 @@ def dormir():
     else:
       print("siga durmiendo")
 
-  
+def mifuncion():
+  print("HI")
 
 mantener=True
 while mantener:
