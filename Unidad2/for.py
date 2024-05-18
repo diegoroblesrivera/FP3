@@ -16,6 +16,19 @@
 # for i in range(num):
 #     print("Iteracion" , i+1 )
 
-num=int(input())
-for i in range(1,11):
-    print(num ," x ", i , " = ", num*i )
+# num=int(input())
+# for i in range(1,11):
+#     print(num ," x ", i , " = ", num*i )
+
+pal="burocracia"
+v="a"
+
+for i in pal:
+    #print(len(pal))
+    #vocal=["a", "e", "i", "o", "u"]
+    if i in v:
+        print(i)
+
+
+
+
