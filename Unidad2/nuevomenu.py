@@ -40,7 +40,7 @@ while True:
 
 
         case 2:
-            print("Resistre un usuario dweseado: 1, 2 , o 3")
+            print("Resistre un usuario deseado: 1, 2 , o 3")
             opc=int(input())
             match opc:
                 case 1:
