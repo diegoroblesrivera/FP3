@@ -16,9 +16,6 @@ import random
 # lista=[41,73,4,55,77,89]
 # lista.append(num) 
 # lista.append(num2)
-
-
-
 # for elemento in lista:
 #     print(elemento)
 
@@ -34,8 +31,11 @@ import random
 #     print(num)
 
 ##Añadir un elemento de otro tipo
-#      0   1 2 3  4  5
+# #       0  1 2 3  4  5
 # lista=[41,73,4,55,77,89]
+# #      -6 -5 -4 -3 -2 -1
+# print(lista[-1])
+
 # lista.append("Paola tiene " +str(lista[5])+ " años") # indice 6
 # lista.append(True) #Indice 7
 # if lista[7]:
@@ -47,16 +47,33 @@ import random
 
 ##Insert ( agrerar elemento) Remove (Sacar Elemento)
 #      0   1 2 3  4  5
-lista=[41,73,4,55,77,89]
-##lista.insert(3, "Sam")
-lista.remove(55)
-lista.sort()
-lista.reverse()
+# lista=[41,73,4,55,77,89]
+# ##lista.insert(3, "Sam")
+# lista.remove(55)
+# lista.sort()
+# lista.reverse()
 
 
-for elemento in lista:
+# for elemento in lista:
     
-    print(elemento)
+#     print(elemento)
+
+# matriz_sencilla = [
+# [1, 2, 3],
+# [4, 5, 6]
+# ]
+
+# print(matriz_sencilla[0][1])
+
+
+# for elemento in matriz_sencilla:
+# 	print(elemento)
+
+# for fila in matriz_sencilla:
+# 	for elemento in fila:
+# 		print(elemento, end=' ')
+
+
 
 
 
