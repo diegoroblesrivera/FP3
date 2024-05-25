@@ -11,7 +11,7 @@ import random
 # print(lista[1])
 
 # ##Añadir un elemento a la lista
-# num=random.randint(0, 100)
+# num=random.randint(1, 99)
 # num2=random.randint(0, 100)
 # lista=[41,73,4,55,77,89]
 # lista.append(num) 
@@ -33,10 +33,10 @@ import random
 ##Añadir un elemento de otro tipo
 # #       0  1 2 3  4  5
 # lista=[41,73,4,55,77,89]
-# #      -6 -5 -4 -3 -2 -1
-# print(lista[-1])
+#     #  -6 -5 -4 -3 -2 -1
+# # print(lista[4]+lista[2])
 
-# lista.append("Paola tiene " +str(lista[5])+ " años") # indice 6
+# lista.append("Paola tiene " +str(lista[2])+ " años") # indice 6
 # lista.append(True) #Indice 7
 # if lista[7]:
 #    lista.append(2.6) #indice 8
@@ -73,6 +73,28 @@ import random
 # 	for elemento in fila:
 # 		print(elemento, end=' ')
 
+# bingo=[]
+
+
+# for j in range(6):
+#     num=random.randint(1, 99)
+#     bingo.append(num)
+
+# if len(bingo)<=5:
+#     #crear un comodin
+#     bingo.append(num)
+
+# for i in bingo:
+#     print(i)
+
+nombres=["Pedro pe", "Juan", "Diego", "Judas"]
+edades= []
+for j in range(len(nombres)):
+    num=random.randint(1, 99)
+    edades.append(num)
+
+for e in range(len(nombres)):
+    print("Su nombre es " ,nombres[e], " y su edad es ",str(edades[e]) )
 
 
 
