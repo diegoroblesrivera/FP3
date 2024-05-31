@@ -13,8 +13,8 @@ lista_productos={
     }
 }
 # print( lista_productos['Cereales']['Zucaritas'])
-for op  in lista_productos:
-    print(op, '', lista_productos[op])
+for key  in lista_productos:
+    print(key, '', lista_productos[key])
 
 # for key  in lista_productos:
 #     print(key, ":")
