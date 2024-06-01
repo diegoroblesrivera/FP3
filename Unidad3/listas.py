@@ -58,12 +58,22 @@ import random
     
 #     print(elemento)
 
+# Hacer 1 matriz con 2 listas
+# la primera lleva 3 nombres
+# la segunda lleva 3 edades
+# hacer print de los nombres y las edades correspondientes
+
+# ej
+
+# Su nombre es [nombre] y su edad es [edad]
+
 # matriz_sencilla = [
 # [1, 2, 3],
-# [4, 5, 6]
+# [4, 5, 6,66,55],
+# [7, 8, 9]
 # ]
 
-# print(matriz_sencilla[0][1])
+# print(matriz_sencilla[1][-1])
 
 
 # for elemento in matriz_sencilla:
@@ -87,15 +97,34 @@ import random
 # for i in bingo:
 #     print(i)
 
-nombres=["Pedro pe", "Juan", "Diego", "Judas"]
-edades= []
-for j in range(len(nombres)):
-    num=random.randint(1, 99)
-    edades.append(num)
+# nombres=["Pedro pe", "Juan", "Diego", "Judas"]
+# edades= []
+# for j in range(len(nombres)):
+#     num=random.randint(1, 99)
+#     edades.append(num)
 
-for e in range(len(nombres)):
-    print("Su nombre es " ,nombres[e], " y su edad es ",str(edades[e]) )
+# for e in range(len(nombres)):
+#     print("Su nombre es " ,nombres[e], " y su edad es ",str(edades[e]) )
 
+# matriz_n=[[
+#     ["Pedro pe", "Juan", "Diego", "Judas"],
+#     [12,23,34,43]]
+# ]
 
+# for i in range(len(matriz_n[0][0])):
+#     print(f"{matriz_n[0][0][i]} tiene {matriz_n[0][1][i]} años", end="\n")
+
+matriz_n=[
+    ["Pedro pe", "Juan", "Diego", "Judas"],
+    [12,23,34,43],
+    ["Arias", "Bravo", "Vargas", "Joo"]
+]
+
+# print(matriz_n[0][2], matriz_n[2][2], matriz_n[1][2] )
+
+# print(matriz_n[0].index("Diego"))
+nom=input("iNGRESE EL NOMBRE DE QUIN QUIERE SABER LA EDAD")
+
+print(matriz_n[1][matriz_n[0].index(nom)])
 
 
