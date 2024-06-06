@@ -35,22 +35,7 @@
 # with open(nombre_fichero, 'w') as f:
 #     for i in range(1, 11):
 #         f.write(str(n) + ' x ' + str(i) + ' = ' + str(n * i) + '\n')
-while True:
-    print("Desea Sumar")
-    listeilor=[]
-    d=input(int())
-    if d.lower()=="si":
-        n = int(input('Introduce un número entero : '))
-        n2 = int(input('Introduce otro número entero : '))
-        nombre_fichero = 'tabla-' + str(n)+ ' + '+ str(n2) + '.txt'
-        poll=str(n) + ' + ' + str(n2) + ' = ' + str(n+n2)
-        listeilor.append(poll)
-    else:
-        print("Que tenga buen dia")
-        break
-    with open(nombre_fichero, 'w') as f:
-            for e in listeilor:
-             f.write(e)
+
 
 
 
