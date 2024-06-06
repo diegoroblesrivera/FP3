@@ -1,0 +1,7 @@
+{
+  "nombre": "Juan",
+  "edad": 25,
+  "ciudad": "Puente Alto",
+  "casado": false,
+  "Correos": ["juan@gmail.com", "juaperez@gmail.com"]
+}
