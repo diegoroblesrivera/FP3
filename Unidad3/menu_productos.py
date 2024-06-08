@@ -1,4 +1,8 @@
 Total = int(0)
+f=0
+p=0
+jc=0
+j=0
 listado_productos={}
 nom=input("Para comenzar, ingrese su nombre")
 while True:
@@ -12,16 +16,20 @@ while True:
     match Eleccion:
             case 1:
                 Total += 1490
-                listado_productos["Fideos"] = 1490
+                f=f+1
+                listado_productos["Fideos"+str(f)] = 1490
             case 2:
                 Total+=4920
-                listado_productos["Pollo asado"] = 4920
+                p=p+1
+                listado_productos["Pollo asado"+str(p)] = 4920
             case 3:
                 Total+=2190
-                listado_productos["Jugos en cajas"] = 1490
+                jc=jc+1
+                listado_productos["Jugos en cajas"+str(jc)] = 1490
             case 4:
                 Total+=2310
-                listado_productos["Jamon"] = 1490
+                j=j+1
+                listado_productos["Jamon"+str(j)] = 1490
             case 5: 
                 break
             case _:

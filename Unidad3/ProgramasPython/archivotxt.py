@@ -40,8 +40,7 @@
 
 nombres=["Pedro", "Juan", "Diego"]
 edad=[34,54, 64]
-
-with open("nombres.txt", 'w') as f:
+with open('nombre_fichero.txt', 'w') as f:
     for i in range(len(nombres)):
         f.write(f"{nombres[i]} tiene {edad[i]} años\n")
 
