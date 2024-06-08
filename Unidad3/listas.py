@@ -67,11 +67,11 @@ import random
 
 # Su nombre es [nombre] y su edad es [edad]
 
-# matriz_sencilla = [
-# [1, 2, 3],
-# [4, 5, 6,66,55],
-# [7, 8, 9]
-# ]
+matriz_sencilla = [
+[1, 2, 3],
+[4, 5, 6,66,55],
+[7, 8, 9]
+]
 
 # print(matriz_sencilla[1][-1])
 
