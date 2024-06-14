@@ -1,0 +1,8 @@
+Cuadrado 1 4 
+Cuadrado 2 36 
+Cuadrado 3 16 
+Cuadrado 4 33.64 
+Cuadrado 5 64 
+Cuadrado 6 49 
+Cuadrado 7 196 
+Cuadrado 8 64 

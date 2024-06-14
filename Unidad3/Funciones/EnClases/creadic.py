@@ -1,4 +1,5 @@
 from israel_solu import buscar_valor
+
 def creaDiccionario():
     dic_vacio={}
     while True:
