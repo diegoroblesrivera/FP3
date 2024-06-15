@@ -1,13 +1,10 @@
-#Las comillas al inicio y 3 al final del texto representan un texto
-#con saltos de línea
-# temp=35
-
-# testo=f'''Lorem Ipsum es simplemente el texto de relleno de las imprentas
-# y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
-# de las industrias desde el año 1500, cuando un impresor (N. del T.
-#             persona que se dedica a la imprenta) TEMp= {temp}'''
-# with open('archivo.txt', 'w') as archivo:
-#     archivo.write(testo)
+# Las comillas al inicio y 3 al final del texto representan un texto
+# con saltos de línea
+temp=35
+iva=700*1.19
+testo=f'''El resultado de la suma es {iva}'''
+with open('archivo.txt', 'w') as archivo:
+    archivo.write(testo)
 
 
 # Opción 1
@@ -38,11 +35,11 @@
 #     for i in range(1, 11):
 #         f.write(str(n) + ' x ' + str(i) + ' = ' + str(n * i) + '\n')
 
-nombres=["Pedro", "Juan", "Diego"]
-edad=[34,54, 64]
-with open('nombre_fichero.txt', 'w') as f:
-    for i in range(len(nombres)):
-        f.write(f"{nombres[i]} tiene {edad[i]} años\n")
+# nombres=["Pedro", "Juan", "Diego"]
+# edad=[34,54, 64]
+# with open('nombre_fichero.txt', 'w') as f:
+#     for i in range(len(nombres)):
+#         f.write(f"{nombres[i]} tiene {edad[i]} años\n")
 
 
 

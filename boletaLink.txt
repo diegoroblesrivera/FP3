@@ -1,0 +1,13 @@
+Bienvenido a supermacado Alegre
+------------------------------
+Producto .........Precio
+Pollo asado1.....$4920
+Jamon1.....$1490
+Jugos en cajas1.....$1490
+Fideos1.....$1490
+Pollo asado2.....$4920
+Fideos2.....$1490
+Fideos3.....$1490
+------------------------------
+Su subtotal es $18810
+Su total a pagar es $22383.9
