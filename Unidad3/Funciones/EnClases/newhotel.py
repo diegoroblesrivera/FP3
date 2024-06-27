@@ -33,7 +33,7 @@ while True:
 
             print("En que habitacion se va  alaojar?")
             hab=int(input())
-            while piso<1 or piso>10:
+            while hab<0 or hab>5:
                 print("Opcion invalida")
                 print("En que habitacion se va  alaojar?")
                 hab=int(input())
