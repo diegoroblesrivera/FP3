@@ -24,8 +24,8 @@ while num <3:
 # print("Bienvenido Usuario Admin")
 
 # def dormir():
-  ruido=False
-  while ruido!=True:
+ruido=False
+while ruido!=True:
     print("zzzzZZZZZZ")
     print("*Susurra*  Hay ruido? si/no")
     verifica=input()

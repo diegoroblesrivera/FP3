@@ -5,12 +5,12 @@
 # else:
 #     print("El numero no es positivo")
 
-num=7
+# num=7
 
-if num>0 and num%2==0:
-    print("El numero es positivo y par")
-else:
-    print("El numero es positivo y no es par")
+# if num>0 and num%2==0:
+#     print("El numero es positivo y par")
+# else:
+#     print("El numero es positivo y no es par")
 
 
 
@@ -146,69 +146,85 @@ else:
 #calculadora
 
 #definicion de operaciones
-def suma():
-    print("Ingrese un numero")
-    num1=int(input())
-    print("Ingrese otro numero")
-    num2=int(input())
-    print(num1+num2)
-def resta():
-    print("Ingrese un numero")
-    num1=int(input())
-    print("Ingrese otro numero")
-    num2=int(input())
-    print(num1-num2)
-def multi():
-    print("Ingrese un numero")
-    num1=int(input())
-    print("Ingrese otro numero")
-    num2=int(input())
-    print(num1*num2)
-def division():
-    print("Ingrese un numero")
-    num1=int(input())
-    print("Ingrese otro numero")
-    num2=int(input())
-    while num2==0:
-        print("Ingrese otro numero distinto de cero")
-        num2=int(input())
+# def suma():
+#     print("Ingrese un numero")
+#     num1=int(input())
+#     print("Ingrese otro numero")
+#     num2=int(input())
+#     print(num1+num2)
+# def resta():
+#     print("Ingrese un numero")
+#     num1=int(input())
+#     print("Ingrese otro numero")
+#     num2=int(input())
+#     print(num1-num2)
+# def multi():
+#     print("Ingrese un numero")
+#     num1=int(input())
+#     print("Ingrese otro numero")
+#     num2=int(input())
+#     print(num1*num2)
+# def division():
+#     print("Ingrese un numero")
+#     num1=int(input())
+#     print("Ingrese otro numero")
+#     num2=int(input())
+#     while num2==0:
+#         print("Ingrese otro numero distinto de cero")
+#         num2=int(input())
     
-    print(num1/num2)
+#     print(num1/num2)
 
 
-def cal():
-    while True:
-        print("Elija una operacion")
-        print("""
-        Suma=1
-        Resta=2
-        Multi=3
-        Division=4
-        Salir=5""")
-        op=int(input())
-        if op==(1):
-                suma()
-        elif(op==(2)):
-                resta()
-        elif(op==(3)):
-                multi()
-        elif(op==(4)):
-                division()
-        elif(op==(5)):
-                break
-        else:
-                print("Elija una opcion Valida")
+# def cal():
+#     while True:
+#         print("Elija una operacion")
+#         print("""
+#         Suma=1
+#         Resta=2
+#         Multi=3
+#         Division=4
+#         Salir=5""")
+#         op=int(input())
+#         if op==(1):
+#                 suma()
+#         elif(op==(2)):
+#                 resta()
+#         elif(op==(3)):
+#                 multi()
+#         elif(op==(4)):
+#                 division()
+#         elif(op==(5)):
+#                 break
+#         else:
+#                 print("Elija una opcion Valida")
 
-# cal()
+# # cal()
 
-ruido=False
-while ruido!=True:
-    print("zzzzZZZZZZ")
-    print("*Susurra*  Hay ruido? si/no")
-    verifica=input()
-    if verifica=="si":
-      print("Ha despertado")
-      ruido=True
-    else:
-      print("siga durmiendo")
+# ruido=False
+# while ruido!=True:
+#     print("zzzzZZZZZZ")
+#     print("*Susurra*  Hay ruido? si/no")
+#     verifica=input()
+#     if verifica=="si":
+#       print("Ha despertado")
+#       ruido=True
+#     else:
+#       print("siga durmiendo")
 #https://github.com/diegoroblesrivera/FP3
+
+import random
+
+
+def dado():
+    return random.randint(1,6)
+
+def loto():
+    return random.randint(1,38)
+
+for i in range(6):
+    print(loto())
+
+# nom=dado()
+
+# print(nom)
