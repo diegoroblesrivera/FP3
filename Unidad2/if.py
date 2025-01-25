@@ -213,17 +213,17 @@
 #       print("siga durmiendo")
 #https://github.com/diegoroblesrivera/FP3
 
-import random
+# import random
 
 
-def dado():
-    return random.randint(1,6)
+# def dado():
+#     return random.randint(1,6)
 
-def loto():
-    return random.randint(1,38)
+# def loto():
+#     return random.randint(1,38)
 
-for i in range(6):
-    print(loto())
+# for i in range(6):
+#     print(loto())
 
 # nom=dado()
 
