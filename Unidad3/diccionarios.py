@@ -25,6 +25,7 @@ frutas={
         'uva': 1800, 'manzana':2100
     }
 frutas["sandia"] = 5490
-frutas["pera"] = 1800
+frutas["pera"] = 2800
 frutas["uva"] = 2000
 print(frutas) 
+

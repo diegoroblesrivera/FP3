@@ -1,12 +1,14 @@
-# #      0 1  2  3 4 5          
+# #    0 1  2  3    4   5  6         
 lista=[1,76,65,9, "lol",7,54]
-# # #      -6 -5-4 -3-2-1
+# # #  -7-6 -5 -4  -3  -2 -1
 
-# # # print(lista)
+print(lista[-3])
 
-# # # lista.append(3,"Mario")
+print(lista)
 
-# # # print(lista)
+lista.insert(2, 4)
+
+print(lista)
 
 # # # # for i in lista:
 # # #     print("Elemento ",i)
@@ -145,20 +147,20 @@ temp=[29, 28, 34, 30, 33, 29,35,29, 28, 34, 30, 33, 29,35, 20,20]
 #     loteria.sort()
 # print(loteria)
 
-colo=[]
-u=[]
-opc="1"
-while opc!="0":
-    print("A que euipo desea agregar ? Para salir presione cero(0)")
-    opc=input()
-    if opc=="u"and opc!=0:
-        nj=int(input("ingrese el numero del jugador"))
-        u.append(nj)
-    elif opc=="colo"and opc!=0:
-        nj=int(input("ingrese el numero del jugador"))
-        colo.append(nj)   
-    print(u)
-    print(colo)    
+# colo=[]
+# u=[]
+# opc="1"
+# while opc!="0":
+#     print("A que euipo desea agregar ? Para salir presione cero(0)")
+#     opc=input()
+#     if opc=="u"and opc!=0:
+#         nj=int(input("ingrese el numero del jugador"))
+#         u.append(nj)
+#     elif opc=="colo"and opc!=0:
+#         nj=int(input("ingrese el numero del jugador"))
+#         colo.append(nj)   
+#     print(u)
+#     print(colo)    
 
 
 
