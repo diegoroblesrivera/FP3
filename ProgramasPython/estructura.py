@@ -4,10 +4,10 @@
 # Variables y Tipos de Datos.
 # Aquí, se han creado variables que almacenan un número entero, 
 # un número decimal, una cadena de texto y un valor booleano.
-variable_entera = 42  # Entero
-variable_decimal = 3.14  # Decimal
-variable_texto = "Hola, mundo!"  # Cadena de texto
-variable_booleana = True  # Valor booleano
+variable_entera = 42  # Entero - Integer
+variable_decimal = 3.14  # Decimal - float
+variable_texto = "Hola, mundo!"  # Cadena de texto  - String (str)
+variable_booleana = True  # Valor booleano - boolean
 
 # Operadores
 # En este caso, resultado_suma almacena el resultado de 
